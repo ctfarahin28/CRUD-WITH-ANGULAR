@@ -1,4 +1,16 @@
-<h2><a routerLink='/user'>Get Users</a></h2>
-<h2><a routerLink='/create'>Create User</a></h2>
-<h2><a routerLink='/delete'>Delete User</a></h2>
+<style>
+  .center {
+  text-align: center;
+  }
+</style>
+<div class="center">
+  <div class="card" style="width: 18rem;">
+    <div class="card-header"></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><a routerLink="/delete">Delete User</a></li>
+      <li class="list-group-item"><a routerLink="/create">Create User</a></li>
+      <li class="list-group-item"><a routerLink="/user">Get Users</a></li>
+    </ul>
+  </div>
+</div>
 <router-outlet></router-outlet>
